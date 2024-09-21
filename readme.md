@@ -7,11 +7,11 @@ usar ->  compose.yml
 rodar com -> docker compose up -d --build
 
 ### .env file
-DB_HOST=localhost
-DB_PORT=5432  
-DB_USER=postgres
-DB_PASS=postgres
-DB_NAME=api_rest_typescript
+- DB_HOST=localhost
+- DB_PORT=5432  
+- DB_USER=postgres
+- DB_PASS=postgres
+- DB_NAME=api_rest_typescript
 
 ### yarn 
 
