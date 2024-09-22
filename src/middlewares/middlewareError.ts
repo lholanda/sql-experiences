@@ -11,9 +11,8 @@ export const errorMiddleware = (
   // aqui compoe uma msg explicita para a aplicacao
   const statusCode = error.statusCode ? error.statusCode :  500
   const message = 
-    error.statusCode ? 
-    error.message : 
-    'Internal server error !!!'
+    error.statusCode ? error.message : error.message
+    //'Internal server error !!!'
   return res.status(statusCode).json({ message });
 };
 

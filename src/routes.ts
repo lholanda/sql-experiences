@@ -7,7 +7,10 @@ import { SqlController } from "./controllers/SqlController";
 const routes = Router();
 
 routes.get("/sql",    new SqlController().teste);     // teste
-routes.post("/sql", new SqlController().createTable); // create a table
+routes.post("/sql/create", new SqlController().createTable); // create a table
+routes.post("/sql/drop", new SqlController().dropTable); // create a table
+//routes.post("/sql/insert", new SqlController().insertIntoTable); // create a table
+//routes.post("/sql/select", new SqlController().selectFromTable); // create a table
 
 
 // routes.delete("/rooms/:id", new RoomController().delete); // turmas
