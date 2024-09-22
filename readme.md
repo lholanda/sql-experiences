@@ -11,7 +11,7 @@ rodar com -> docker compose up -d --build
 - DB_PORT=5432  
 - DB_USER=postgres
 - DB_PASS=postgres
-- DB_NAME=api_rest_typescript
+- DB_NAME=sql_experiences
 
 ### yarn 
 
